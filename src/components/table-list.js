@@ -2,33 +2,45 @@ import React from 'react';
 import '../static/table.css';
 
 
-export default function TableList(props) {
+class TableList extends React.Component {
   
+  componentDidMount(){
+    this.props.sortBy('average_pace');
+  }
 
+render(){
     return(
-
-        <table onLoad={() => props.sortBy('average_pace')} className="table">
+        <div className="container">
+            
+        <table className="table">
             <thead>
                 <tr>
                     <th>UserID</th>
                     <th>Name</th>
                     <th>Age</th>
                     <th>Gender</th>
-                    <th>Total-Time</th>
-                    <th>Distance</th>
-                    
-                    <button onClick={() => props.sortBy('average_pace')}>
+                    <th>
+                    <button className='btn btn-warning' onClick={() => this.props.sortBy('total_time')}>
+                        Total Time
+                    </button>
+                    </th>
+                    <th>
+                    <button className='btn btn-warning' onClick={() => this.props.sortBy('distance')}>
+                        Distance
+                    </button>
+                    </th>
+                    <th>
+                    <button className='btn btn-warning' onClick={() => this.props.sortBy('average_pace')}>
                         Average-Pace
                     </button>
-                    
-
+                    </th>
                 </tr>
             </thead>
             
             <tbody>
                
                 {   
-                        props.data.map(row => {
+                        this.props.data.map(row => {
                            
                             return(
                             <tr>
@@ -53,6 +65,8 @@ export default function TableList(props) {
             </tbody>
 
         </table>
-
+        </div>
     )
 }
+}
+        export default TableList;

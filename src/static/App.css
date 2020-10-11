@@ -42,3 +42,12 @@
   background-color:grey;
   
 }
+
+.radiodiv{
+  background-color:turquoise;
+  display: flex;
+  justify-content:space-between;
+  
+  padding: 50px 150px 50px 100px;
+}
+
