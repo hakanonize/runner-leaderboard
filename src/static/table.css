@@ -1,0 +1,11 @@
+.table{
+    text-align: center;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+th {
+    padding-left: 50px;
+}
+td {
+    padding-left: 50px;
+}
