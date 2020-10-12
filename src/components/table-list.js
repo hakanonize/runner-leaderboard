@@ -3,7 +3,7 @@ import '../static/table.css';
 
 
 class TableList extends React.Component {
-  
+  // sort when tablelist component loads
   componentDidMount(){
     this.props.sortBy('average_pace');
   }
@@ -13,7 +13,7 @@ render(){
         <div className="container">
             
         <table className="table">
-            <thead>
+            <thead className="thead-dark">
                 <tr>
                     <th>UserID</th>
                     <th>Name</th>

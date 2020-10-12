@@ -2,76 +2,91 @@
     {
         "userid": "1",
         "username": "user1",
-        "age": "24"
+        "age": "24",
+        "gender": "F"
     },
     {
         "userid": "2",
         "username": "ahmet",
-        "age": "21"
+        "age": "21",
+        "gender": "M"
     },
     {
         "userid": "3",
         "username": "yunus",
-        "age": "28"
+        "age": "28",
+        "gender": "M"
     },
     {
         "userid": "4",
         "username": "hakan",
-        "age": "23"
+        "age": "23",
+        "gender": "M"
     },
     {
         "userid": "5",
         "username": "john",
-        "age": "34"
+        "age": "34",
+        "gender": "M"
     },
     {
         "userid": "6",
         "username": "adam",
-        "age": "31"
+        "age": "31",
+        "gender": "M"
     },
     {
         "userid": "7",
         "username": "brian",
-        "age": "41"
+        "age": "41",
+        "gender": "M"
     },
     {
         "userid": "8",
         "username": "tyler",
-        "age": "26"
+        "age": "26",
+        "gender": "M"
     },
     {
         "userid": "9",
         "username": "ceren",
-        "age": "35"
+        "age": "35",
+        "gender": "F"
     },
     {
         "userid": "10",
         "username": "hasan",
-        "age": "43"
+        "age": "43",
+        "gender": "M"
     },
     {
         "userid": "11",
         "username": "selen",
-        "age": "29"
+        "age": "29",
+        "gender": "F"
     },
     {
         "userid": "12",
         "username": "diana",
-        "age": "45"
+        "age": "45",
+        "gender": "F"
     },
     {
         "userid": "13",
         "username": "thomas",
-        "age": "44"
+        "age": "44",
+        "gender": "M"
     },
     {
         "userid": "14",
         "username": "james",
-        "age": "39"
+        "age": "39",
+        "gender": "M"
     },
     {
         "userid": "15",
         "username": "janet",
-        "age": "36"
+        "age": "36",
+        "gender": "F"
     }
 ]

@@ -1,3 +1,5 @@
+//first assigned users to temporary array and if userid matches created new attribute to json array.
+
 const ElementDegistir = (users,paces) => {
     let temp = users;
     for(let i = 0 ; i < users.length ; i++){
